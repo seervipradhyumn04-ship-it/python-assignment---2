@@ -1,0 +1,5 @@
+fruits = ("apple", "banana", "mango", "orange")
+
+print("Second Fruit:", fruits[1])
+print("Last Two Fruits:", fruits[2:])
+print("Total Number of Fruits:", len(fruits))
