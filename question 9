@@ -1,0 +1,18 @@
+def count_frequency(arr):
+
+    printed = []
+
+    for item in arr:
+
+        if item not in printed:
+
+            count = arr.count(item)
+
+            print(item, "->", count, "times")
+
+            printed.append(item)
+
+
+arr = [1, 2, 2, 3, 1, 4, 2]
+
+count_frequency(arr)
