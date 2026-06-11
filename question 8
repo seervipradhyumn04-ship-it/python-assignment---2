@@ -1,0 +1,34 @@
+students = {
+    "Aman": 78,
+    "Riya": 92,
+    "Kriti": 88,
+    "Rahul": 95
+}
+
+highest_name = ""
+highest_marks = 0
+
+for name in students:
+    if students[name] > highest_marks:
+        highest_marks = students[name]
+        highest_name = name
+
+lowest_name = ""
+lowest_marks = 100
+
+for name in students:
+    if students[name] < lowest_marks:
+        lowest_marks = students[name]
+        lowest_name = name
+
+print("Highest Marks Student:")
+print(highest_name, highest_marks)
+
+print("Lowest Marks Student:")
+print(lowest_name, lowest_marks)
+
+print("Students Scoring More Than 85 Marks:")
+
+for name in students:
+    if students[name] > 85:
+        print(name, students[name])
