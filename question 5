@@ -1,0 +1,16 @@
+student = {
+    "name": "Kriti",
+    "age": 20,
+    "course": "Python"
+}
+
+print("Complete Dictionary:", student)
+print("Student Name:", student["name"])
+print("Student Age:", student["age"])
+print("Student Course:", student["course"])
+
+numbers = [12, 45, 7, 23, 56, 89, 34]
+
+print("Largest Element:", max(numbers))
+print("Second Largest Element:", sorted(numbers)[-2])
+print("Smallest Element:", min(numbers))
