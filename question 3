@@ -1,0 +1,9 @@
+numbers = {10, 20, 30, 40, 50}
+
+print("Complete Set:", numbers)
+print("Length of Set:", len(numbers))
+
+if 30 in numbers:
+    print("30 is Present in the Set")
+else:
+    print("30 is Not Present in the Set")
